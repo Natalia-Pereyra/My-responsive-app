@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #81afdc;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -104,6 +104,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  
 }
 .col-6 {
   flex: 0 0 auto;
