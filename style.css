@@ -6,6 +6,7 @@
 
 body {
   width: 100%;
+  background-color: black;
 }
 
 h1,
@@ -104,7 +105,6 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
-  
 }
 .col-6 {
   flex: 0 0 auto;
@@ -136,4 +136,22 @@ p {
   p {
     text-align: center;
   }
+  header h1 {
+    text-align: center;
+  }
+  header h2 {
+    text-align: center;
+  }
+}
+header {
+  margin-top: 100px;
+}
+header h1 {
+  color: var(--primary-color);
+  text-align: right;
+  margin-top: 100px;
+}
+header h2 {
+  text-align: right;
+  color: white;
 }
