@@ -84,17 +84,17 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--light-gray-color);
+  color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
-  margin-top: -40px;
+  margin-top: 0px;
   margin-bottom: 40px;
   padding-bottom: 30px;
 }
 
 .email-link:hover {
-  text-decoration: underline;
-  color: var(--light-gray-color);
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 .fixed-top {
   position: fixed;
@@ -136,11 +136,16 @@ p {
   p {
     text-align: center;
   }
-  header h1 {
+  h1 {
     text-align: center;
+    font-size: 60px;
   }
-  header h2 {
+  h2 {
     text-align: center;
+    font-size: 30px;
+  }
+  .opensourced-link {
+    font-size: 18px;
   }
 }
 header {
@@ -170,12 +175,11 @@ i {
 .Technologies {
   margin-bottom: 50px;
 }
-.social-links {
+.contact-box {
   display: block;
   text-align: center;
-  margin-bottom: 0px;
   background-color: var(--primary-color);
-  font-size: 10px;
+  height: 240px;
 }
 .opensourced-link {
   text-decoration: none;
@@ -191,4 +195,8 @@ footer p {
 }
 .header {
   margin-top: 100px;
+}
+img {
+  width: 100%;
+  height: auto;
 }
